@@ -1,0 +1,72 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@editorjs/editorjs": "^2.22.2",
+    "@editorjs/header": "^2.6.1",
+    "@editorjs/list": "^1.6.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@wordpress/customize-widgets": "^2.0.10",
+    "@wordpress/plugins": "^4.0.6",
+    "axios": "^0.19.2",
+    "ckeditor4": "^4.17.1",
+    "classnames": "^2.2.6",
+    "destack": "^0.10.4",
+    "fa-icons": "^0.2.0",
+    "fontawesome-4.7": "^4.7.0",
+    "grapesjs": "^0.17.29",
+    "grapesjs-blocks-bootstrap4": "^0.2.3",
+    "grapesjs-blocks-flexbox": "^0.1.1",
+    "grapesjs-custom-blocks": "^0.0.2",
+    "grapesjs-custom-code": "^0.1.3",
+    "grapesjs-parser-postcss": "^0.1.1",
+    "grapesjs-preset-webpage": "^0.1.11",
+    "jwt-decode": "^2.2.0",
+    "markdown-it-custom-block": "^0.1.2",
+    "mdbootstrap": "^4.20.0",
+    "qubely": "github:themeum/qubely",
+    "react": "^16.12.0",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.11.0",
+    "react-layout-pack": "^0.2.3",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "tailwindcss-plugins": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@umijs/plugin-layout": "^0.18.1"
+  }
+}
