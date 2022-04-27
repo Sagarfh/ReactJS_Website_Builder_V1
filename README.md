@@ -1,6 +1,5 @@
 # **Simple User Registration and Login functionality with MongoDB, ExpressJs, React and NodeJs [MERN]**
 
-![Final App](./MERN.gif)
 Full-stack MERN app with authentication using passport and JWTs.
 
 This project uses the following technologies:
